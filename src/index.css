@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For AppBar */
+.draggable {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+  }
+
+.undraggable {
+    -webkit-app-region: no-drag;
+  }
+
+  @font-face {
+    font-family: 'd9-photo-editor';
+    src:
+      url('assets/fonts/d9-photo-editor.ttf?qnif4t') format('truetype'),
+      url('assets/fonts/d9-photo-editor.woff?qnif4t') format('woff'),
+      url('assets/fonts/d9-photo-editor.svg?qnif4t#d9-photo-editor') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'd9-photo-editor' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-printer:before {
+    content: "\e954";
+  }
+  .icon-undo:before {
+    content: "\e965";
+  }
+  .icon-redo:before {
+    content: "\e966";
+  }
+  .icon-zoom-in:before {
+    content: "\e987";
+  }
+  .icon-zoom-out:before {
+    content: "\e988";
+  }
+  .icon-enlarge:before {
+    content: "\e989";
+  }
+  .icon-equalizer:before {
+    content: "\e992";
+  }
+  .icon-magic-wand:before {
+    content: "\e997";
+  }
+  .icon-eye:before {
+    content: "\e9ce";
+  }
+  .icon-eye-blocked:before {
+    content: "\e9d1";
+  }
+  .icon-arrow-up-left2:before {
+    content: "\ea39";
+  }
+  .icon-arrow-up2:before {
+    content: "\ea3a";
+  }
+  .icon-arrow-up-right2:before {
+    content: "\ea3b";
+  }
+  .icon-arrow-right2:before {
+    content: "\ea3c";
+  }
+  .icon-arrow-down-right2:before {
+    content: "\ea3d";
+  }
+  .icon-arrow-down2:before {
+    content: "\ea3e";
+  }
+  .icon-arrow-down-left2:before {
+    content: "\ea3f";
+  }
+  .icon-arrow-left2:before {
+    content: "\ea40";
+  }
