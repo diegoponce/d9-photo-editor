@@ -49,7 +49,7 @@ const ImageViewer = ({handleViewer, handleFilter, showImageBox, applyFilter}) =>
         />
       </FileUploaderWrapper>
       <div  className={`${showImageBox ? 'opacity-100 visible' : 'opacity-0 invisible' } absolute flex flex-auto flex-col justify-center items-center w-full h-full p-10 bg-gray-300 transition-all duration-300`}>
-        <button onClick={hideImageBox} className='absolute top-5 right-5 bg-gray-900 text-white flex justify-center items-center w-10 h-10 rounded-full transition-all hover:bg-gray-700' >X</button>
+        <button onClick={hideImageBox} className='z-10 absolute top-5 right-5 bg-gray-900 text-white flex justify-center items-center w-10 h-10 rounded-full transition-all hover:bg-gray-700' >X</button>
         <div className="main-image flex max-h-full">
           <img ref={imgRef as any} id='main-image' onLoad={getOrientation} className={`${applyFilter ? 'sepia' : '' } transition-all duration-500 max-w-full max-h-full`} src={imageLoaded} alt="" />
         </div>
