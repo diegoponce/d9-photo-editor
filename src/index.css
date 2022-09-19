@@ -13,6 +13,10 @@
     -webkit-app-region: no-drag;
   }
 
+.mid-sepia {
+  filter: url('#mid-sepia');
+}
+
   @font-face {
     font-family: 'd9-photo-editor';
     src:

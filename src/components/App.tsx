@@ -7,7 +7,7 @@ function App() {
   const [showImageBox, setShowImageBox] = useState<boolean>(false);
   const [applyFilter, setApplyFilter] = useState<boolean>(false);
   const [showLogo, setShowLogo] = useState<boolean>(false);
-  const [logoPosition, setLogoPosition] = useState<string>('bottom-5 right-5');
+  const [logoPosition, setLogoPosition] = useState<string>('bottom-3 right-3');
   const handleViewer = (showed:boolean) => {
     setShowImageBox(showed);
   };

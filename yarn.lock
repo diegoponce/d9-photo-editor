@@ -1231,6 +1231,11 @@
   dependencies:
     "mimic-response" "^1.0.0"
 
+"clsx@^1.2.1":
+  "integrity" "sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg=="
+  "resolved" "https://registry.npmjs.org/clsx/-/clsx-1.2.1.tgz"
+  "version" "1.2.1"
+
 "color-convert@^1.9.0":
   "integrity" "sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg=="
   "resolved" "https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz"
@@ -3369,6 +3374,13 @@
     "prop-types" "^15.7.2"
     "styled-components" "^5.3.0"
 
+"react-image-crop@^10.0.7":
+  "integrity" "sha512-doV3sz101q9IaTWlx+DlErJ+BUknJ5CMVIRV72thWC3Fn5bg2XWoft7FbbrFGIr46zYrKKS9QuWNEzNkaqRvfQ=="
+  "resolved" "https://registry.npmjs.org/react-image-crop/-/react-image-crop-10.0.7.tgz"
+  "version" "10.0.7"
+  dependencies:
+    "clsx" "^1.2.1"
+
 "react-image-filter@^0.1.2":
   "integrity" "sha512-bNUqDBB/R6npdtIDyzJjFCUX3mXvR2LhFTV4Wg2gi0kUkSW2fEWfDv4LZpng/SieXL86rnqK8PIAzibvBCL6iQ=="
   "resolved" "https://registry.npmjs.org/react-image-filter/-/react-image-filter-0.1.2.tgz"
@@ -3386,7 +3398,7 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.0.tgz"
   "version" "0.14.0"
 
-"react@^18.0.0", "react@^18.2.0", "react@>= 16.8.0", "react@>=15.6.2", "react@>=16.9.0":
+"react@^18.0.0", "react@^18.2.0", "react@>= 16.8.0", "react@>=15.6.2", "react@>=16.13.1", "react@>=16.9.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
